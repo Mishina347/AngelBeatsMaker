@@ -1,0 +1,28 @@
+<html>
+  <meta charset="UTF-8" />
+  <head>
+    <link rel="stylesheet" type="text/css" href="dest/css/test.css" />
+  </head>
+  <body>
+    <div class="background" id="canvas">
+      <div class="transitions" style="width: 600px; height: 300px;">
+        <p class="text" style="font-size: 5vw;">
+          [c1]
+        </p>
+        <p id="sample" class="text">降下<span>作戦・・</span></p>
+      </div>
+      <div class="transitions" style="width: 500px; right: 10px;">
+        <p class="text" style="font-size: 5vw;">
+          [c2]
+        </p>
+        <p id="sample" class="text">解除</p>
+        <p id="sample" class="text"><span>されていない</span></p>
+      </div>
+      <script src="fitty.min.js"></script>
+      <script type="text/javascript" src="test.js"></script>
+      <script async>
+        fitty("#sample");
+      </script>
+    </div>
+  </body>
+</html>
